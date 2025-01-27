@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Script Viewer</title>
+    <link rel="stylesheet" href="styles.css" />
+    <!-- Font Awesome CDN for the toggle icon -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
+  </head>
+  <body>
+    <!-- Navbar with title and theme toggle button -->
+    <nav class="navbar">
+      <button class="hamburger-toggle">
+        <i class="fas fa-bars"></i>
+        <!-- Hamburger icon -->
+      </button>
+      <h1>Soleful Silence</h1>
+      <div class="nav-icons">
+        <button class="theme-toggle">
+          <i id="theme-icon" class="fas fa-sun"></i>
+          <!-- Sun icon for light theme -->
+        </button>
+      </div>
+    </nav>
+
+    <!-- Sidebar with Scene Names -->
+    <aside class="sidebar">
+      <h2>Scenes</h2>
+      <ul id="scene-list">
+        <!-- Scene names will be dynamically added here -->
+      </ul>
+    </aside>
+
+    <!-- Main Content Area -->
+    <div class="container">
+      <section id="plot-introduction" class="plot-introduction">
+        <h2>Plot Introduction</h2>
+        <p>
+          This is a short film about a pair of slippers and the unnoticed,
+          unspoken bond they share with their owner. In a world where life's
+          fast pace often leaves little room for reflection, the slippers
+          silently journey alongside the man, carrying memories of his past, his
+          moments of solitude, and the fleeting connections he makes along the
+          way.
+        </p>
+        <p>
+          The film is told without dialogue, allowing the audience to feel the
+          emotional resonance through subtle movements, moments of pause, and
+          visual storytelling. Each scene reveals the growing attachment between
+          the man and his slippers, unnoticed by him but ever-present as a part
+          of his journey through life. The story unfolds through the lens of
+          time, place, and quiet transitions, offering a reflection on the
+          unnoticed bonds that shape who we are, even when we don’t realize it.
+        </p>
+      </section>
+      <div id="scene-container" class="scene-container">
+        <!-- Dynamic content will be added here -->
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
